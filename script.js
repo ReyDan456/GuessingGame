@@ -5,7 +5,7 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
   const password = document.getElementById('password').value;
 
   // Validate credentials - For demonstration purposes
-  if (username === 'user' && password === 'password') {
+  if (username === 'Al-os' && password === 'Enterprise') {
     document.getElementById('login-page').style.display = 'none';
     document.getElementById('game-page').style.display = 'block';
     startGame();
